@@ -1,16 +1,23 @@
-﻿{
-  "name": "server_4",
+{
+  "name": "server_k",
   "version": "1.0.0",
   "description": "Backend server",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "axios": "^1.8.1",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "mongoose": "^7.0.0"
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
